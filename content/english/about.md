@@ -7,60 +7,56 @@ draft: false
 who_we_are:
   enable: true
   subtitle: "Who We Are"
-  title: "Hello, We're Andromeda Here for your Help"
-  description: "Your online Health & Fitness companion that offers free assistance on its Facebook Group and provides quality paid guided personal training packages by and through website. We are the first ever, online manifesto in Bangladesh to make place you will select when you think of getting fit"
-
+  title: "We Drive Growth for Finance & Health Tech"
+  description: "Ratio is a growth marketing agency that helps finance and health tech companies scale. We craft bold brands, sharp strategies, and campaigns that deliver real results."
   image: "images/about/01.jpg"
 
 # what_we_do
 what_we_do:
   enable: true
-  subtitle: "Our Works"
-  title: "What We Do"
+  subtitle: "Our Work"
+  title: "How We Make It Happen"
   block:
-    - title: "Building a new class"
-      content: "Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems"
-
-    - title: "Design for anyone"
-      content: "Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems"
-
-    - title: "Creative flair design"
-      content: "Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems"
-
-    - title: "Building products"
-      content: "Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems"
+    - title: "Bold Branding"
+      content: "We create clear, compelling brand stories that position your company as a leader in finance or health tech markets."
+    - title: "Smart Marketing"
+      content: "From targeted ads to data-driven campaigns, we drive demand and turn prospects into loyal customers."
+    - title: "Strategic Guidance"
+      content: "Our expert advisory board helps you navigate complex challenges, from mergers to market expansion."
+    - title: "Web & Content"
+      content: "We build user-friendly websites and craft content that engages and converts your audience."
 
 # our_mission
 our_mission:
   enable: true
-  subtitle: "OUR MISSION"
-  title: "Main Vision And Mission Of Our Company"
-  description: "We were freelance designers and developers, constantly finding ourselve deep vague feedback. leaving a notes from the sticky note piece ."
-
+  subtitle: "Our Mission"
+  title: "Your Success, Our Focus"
+  description: "We partner with finance and health tech companies to cut through complexity, align teams, and drive measurable growth with marketing that works."
   image: "images/about/02.jpg"
 
 # about_video
 about_video:
   enable: true
-  subtitle: "A Short Video"
-  title: "You Take Care Of The Payments, We Take Care Of The Rest."
-  description: "Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistcy throughout the."
-  video_url: "https://www.youtube.com/embed/dyZcRRWiuuw"
-  video_thumbnail: "images/about/video-popup-2.jpg"
+  subtitle: "See Our Impact"
+  title: "We Help Companies Grow"
+  description: "Watch how we transform complex products into clear, growth-driven messages that boost revenue and market presence."
+  video_url: "https://www.youtube.com/embed/F5cOjigIdO4"
+  video_thumbnail: "images/ratio-intro-vid-thumbnail.jpg"
+
 
 # brands
 brands_carousel:
   enable: true
   subtitle: "Our Clients"
-  title: "Trusted by Thousands Companies"
-  section: "/" # brand images comming form _index.md
+  title: "Trusted by Leading Companies"
+  section: "/" # brand images coming from _index.md
 
-# our team
+# our_team
 our_team:
   enable: true
-  subtitle: "Our members"
-  title: "The People Behind"
-  description: "We were freelance designers and developers, constantly finding <br> ourselves deep in vague feedback. This made every client and team"
+  subtitle: "Our People"
+  title: "The Team Behind Your Growth"
+  description: "Our experts and advisory board bring deep experience to help finance and health tech companies succeed."
   team:
     - name: "Valentin Staykov"
       image: "images/about/team/01.jpg"
@@ -72,12 +68,12 @@ our_team:
       image: "images/about/team/03.jpg"
       designation: "Engineering"
 
-# our office
+# our_office
 our_office:
-  enable: true
+  enable: false
   subtitle: "Our Offices"
-  title: "Made with Love Of around the world With Many Offices"
-  description: "We were freelance designers and developers, constantly finding <br> ourselves deep in vague feedback. This made every client and team"
+  title: "Built from Nashville, Serving the World"
+  description: "Based in Nashville, we work with finance and health tech companies globally, delivering strategies that drive results."
   office_locations:
     - city: "NewYork, USA"
       country_flag: "images/about/flags/us.png"
