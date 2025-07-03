@@ -1,5 +1,4 @@
 {{ define "main" }}
-
   {{ with .Params.who_we_are }}
     {{ if .enable }}
       <section class="section-sm">
@@ -40,23 +39,30 @@
     {{ end }}
   {{ end }}
 
-  {{ with .Params.what_we_do }}
+  {{ with .Params.our_team }}
     {{ if .enable }}
-      <section data-aos="fade-in">
+      <section class="section-sm">
         <div class="container">
-          <div class="row justify-content-center">
+          <div class="row">
             <div class="col-12">
-              <div class="section-title text-center">
+              <div class="section-title text-center" data-aos="fade-in">
                 <p class="text-uppercase">{{ .subtitle | markdownify }}</p>
                 <h2 class="title">{{ .title | markdownify }}</h2>
+                <p>{{ .description | markdownify }}</p>
               </div>
             </div>
-
-            {{ range .block }}
-              <div class="col-xl-5 col-lg-6">
-                <div class="text-center px-0 px-md-5 mt-4">
-                  <h3 class="text-capitalize">{{ .title | markdownify }}</h3>
-                  <p>{{ .content | markdownify }}</p>
+          </div>
+          <div class="row justify-content-around">
+            {{ range .team }}
+              <div class="col-lg-3 col-md-4 col-6">
+                <div class="team-item text-center">
+                  <div class="team-image">
+                    {{ partial "image.html" (dict "Src" .image "Alt" "Video Thumbnail" "Class" "w-100 rounded-circle" "Size"
+                      "175x")
+                    }}
+                  </div>
+                  <h3>{{ .name | markdownify }}</h3>
+                  <p>{{ .designation | markdownify }}</p>
                 </div>
               </div>
             {{ end }}
@@ -66,41 +72,33 @@
     {{ end }}
   {{ end }}
 
-  {{ with .Params.our_mission }}
+  {{ with .Params.our_board }}
     {{ if .enable }}
       <section class="section-sm">
-        <div class="container position-relative">
-          <div class="row justify-content-center align-items-center">
-            <div class="col-lg-5 col-md-6" data-aos="fade-up">
-              <div class="about-image">
-                <div class="block">
-                  {{ partial "image.html" (dict "Src" .image "Alt" "about-image" "Size" "4645x") }}
-
-
-                  <div class="has-circle">
-                    <span class="circle-4 ratio-20 fill"></span>
-                    <span class="circle-5 ratio-47"></span>
-                  </div>
-                </div>
-
-                <div class="has-circle">
-                  <span class="circle-1 ratio-85 fill"></span>
-                  <span class="circle-2 ratio-37"></span>
-                  <span class="circle-3 ratio-20 fill"></span>
-                  <span class="circle-6 ratio-85 fill"></span>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="150">
-              <div class="section-title">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-title text-center" data-aos="fade-in">
                 <p class="text-uppercase">{{ .subtitle | markdownify }}</p>
                 <h2 class="title">{{ .title | markdownify }}</h2>
                 <p>{{ .description | markdownify }}</p>
               </div>
             </div>
+          </div>
+          <div class="row justify-content-around">
+            {{ range .team }}
+              <div class="col-lg-3 col-md-4 col-6">
+                <div class="team-item text-center">
+                  <div class="team-image">
+                    {{ partial "image.html" (dict "Src" .image "Alt" "Video Thumbnail" "Class" "w-100 rounded-circle" "Size"
+                      "175x")
+                    }}
+                  </div>
+                  <h3>{{ .name | markdownify }}</h3>
+                  <p>{{ .designation | markdownify }}</p>
+                </div>
+              </div>
+            {{ end }}
           </div>
         </div>
       </section>
@@ -182,6 +180,73 @@
     {{ end }}
   {{ end }}
 
+  {{ with .Params.what_we_do }}
+    {{ if .enable }}
+      <section class="section-sm" data-aos="fade-in">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <div class="section-title text-center">
+                <p class="text-uppercase">{{ .subtitle | markdownify }}</p>
+                <h2 class="title">{{ .title | markdownify }}</h2>
+              </div>
+            </div>
+
+            {{ range .block }}
+              <div class="col-xl-5 col-lg-6">
+                <div class="text-center px-0 px-md-5 mt-4">
+                  <h3 class="text-capitalize">{{ .title | markdownify }}</h3>
+                  <p>{{ .content | markdownify }}</p>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+
+  {{ with .Params.our_mission }}
+    {{ if .enable }}
+      <section class="section-sm">
+        <div class="container position-relative">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-5 col-md-6" data-aos="fade-up">
+              <div class="about-image">
+                <div class="block">
+                  {{ partial "image.html" (dict "Src" .image "Alt" "about-image" "Size" "4645x") }}
+
+
+                  <div class="has-circle">
+                    <span class="circle-4 ratio-20 fill"></span>
+                    <span class="circle-5 ratio-47"></span>
+                  </div>
+                </div>
+
+                <div class="has-circle">
+                  <span class="circle-1 ratio-85 fill"></span>
+                  <span class="circle-2 ratio-37"></span>
+                  <span class="circle-3 ratio-20 fill"></span>
+                  <span class="circle-6 ratio-85 fill"></span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="150">
+              <div class="section-title">
+                <p class="text-uppercase">{{ .subtitle | markdownify }}</p>
+                <h2 class="title">{{ .title | markdownify }}</h2>
+                <p>{{ .description | markdownify }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+  {{ end }}
+
   {{ with .Params.brands_carousel }}
     {{ if .enable }}
       <section class="section-sm">
@@ -209,39 +274,6 @@
                   </div>
                 </div>
               {{ end }}
-            {{ end }}
-          </div>
-        </div>
-      </section>
-    {{ end }}
-  {{ end }}
-
-  {{ with .Params.our_team }}
-    {{ if .enable }}
-      <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="section-title text-center" data-aos="fade-in">
-                <p class="text-uppercase">{{ .subtitle | markdownify }}</p>
-                <h2 class="title">{{ .title | markdownify }}</h2>
-                <p>{{ .description | markdownify }}</p>
-              </div>
-            </div>
-          </div>
-          <div class="row justify-content-around">
-            {{ range .team }}
-              <div class="col-lg-3 col-md-4 col-6">
-                <div class="team-item text-center">
-                  <div class="team-image">
-                    {{ partial "image.html" (dict "Src" .image "Alt" "Video Thumbnail" "Class" "w-100 rounded-circle" "Size"
-                      "175x")
-                    }}
-                  </div>
-                  <h3>{{ .name | markdownify }}</h3>
-                  <p>{{ .designation | markdownify }}</p>
-                </div>
-              </div>
             {{ end }}
           </div>
         </div>
