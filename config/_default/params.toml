@@ -9,7 +9,7 @@ logo_width = "257px"
 # if logo_webp set false, it will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Andromeda"
+logo_text = "Ratio"
 
 # footer information
 footer_info = "We help finance and health tech companies grow with bold marketing and smart strategies."
@@ -47,9 +47,9 @@ link = "contact/"
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Hugo", "GetHugoThemes", "Themefisher"]
-description = "Software and SAAS Landing Hugo Theme"
-author = "Tech Handoff"
+keywords = ["growth marketing", "finance", "health tech", "branding", "strategy"]
+description = "Ratio drives growth for finance and health tech companies with bold marketing and smart strategies."
+author = "Ratio"
 image = "images/og-image.jpg" # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/

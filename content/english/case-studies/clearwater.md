@@ -2,7 +2,7 @@
 date: "2021-07-14"
 draft: false
 title: "Clearwater"
-logo: "images/case-studies/01.svg"
+logo: "images/case-studies/clw-cards.jpg"
 # year: "2011"
 # location: "Bizli, Canada"
 # company_size: "100+ Members"
@@ -16,4 +16,4 @@ We partnered with Clearwater to develop a bold, future-ready brand strategy — 
 
 The impact was immediate. With a clear, differentiated market position, backed by a powerful digital strategy, Clearwater broke into the healthcare cybersecurity space and quickly solidified its leadership — setting the stage for sustained growth.
 
-{{< image c="img-fluid" title="We are especially interested in finding developers with experience" src="/images/banner-app.png" alt="Case Challenge">}}
+{{< image c="img-fluid" title="We are especially interested in finding developers with experience" src="https://goratio.com/wp-content/uploads/2025/02/clw-cs-4.jpg" alt="Case Challenge">}}
