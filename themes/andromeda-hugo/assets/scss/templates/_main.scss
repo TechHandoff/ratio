@@ -323,8 +323,8 @@
     content: "";
     height: calc(100% - 4.3rem);
     width: calc(100% - 4.3rem);
-    top: 2.8rem;
-    left: 2.8rem;
+    // top: 2.8rem;
+    // left: 2.8rem;
     background: #fe6019;
     z-index: -1;
     border-radius: 50%;
@@ -338,8 +338,8 @@
     &::before {
       height: calc(100% - 1.25rem);
       width: calc(100% - 1.25rem);
-      top: 0.9rem;
-      left: 0.9rem;
+      // top: 0.9rem;
+      // left: 0.9rem;
     }
   }
 }
