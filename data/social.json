@@ -1,24 +1,15 @@
 {
   "main": [
     {
-      "title": "facebook",
-      "icon": "lab la-facebook-f",
-      "link": "!#"
-    },
-    {
-      "title": "twitter",
-      "icon": "lab la-twitter",
-      "link": "!#"
-    },
-    {
       "title": "linkedin",
       "icon": "lab la-linkedin-in",
-      "link": "!#"
+      "link": "https://www.linkedin.com/company/ratiomarketing/"
     },
     {
-      "title": "pinterest",
-      "icon": "lab la-pinterest",
-      "link": "!#"
+      "title": "youtube",
+      "icon": "lab la-youtube",
+      "link": "https://www.youtube.com/@RatioMarketing"
     }
   ]
 }
+

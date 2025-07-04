@@ -2,109 +2,109 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>//localhost:1313/ratio/</loc>
     <lastmod>2023-01-14T00:00:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/changelog/</loc>
+    <loc>//localhost:1313/ratio/changelog/</loc>
     <lastmod>2023-01-14T00:00:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/terms-and-conditions/</loc>
+    <loc>//localhost:1313/ratio/terms-and-conditions/</loc>
     <lastmod>2023-01-14T00:00:00-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>//localhost:1313/ratio/blog/</loc>
     <lastmod>2021-07-14T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/career/</loc>
+    <loc>//localhost:1313/ratio/career/</loc>
     <lastmod>2021-07-14T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/case-studies/</loc>
+    <loc>//localhost:1313/ratio/case-studies/</loc>
     <lastmod>2021-07-14T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/career/job-post-1/</loc>
+    <loc>//localhost:1313/ratio/career/job-post-1/</loc>
     <lastmod>2021-07-14T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/case-studies/case-1/</loc>
+    <loc>//localhost:1313/ratio/case-studies/case-1/</loc>
     <lastmod>2021-07-14T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-1/</loc>
+    <loc>//localhost:1313/ratio/blog/post-1/</loc>
     <lastmod>2021-07-14T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/career/job-post-2/</loc>
+    <loc>//localhost:1313/ratio/career/job-post-2/</loc>
     <lastmod>2021-07-13T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/case-studies/case-2/</loc>
+    <loc>//localhost:1313/ratio/case-studies/case-2/</loc>
     <lastmod>2021-07-13T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-2/</loc>
+    <loc>//localhost:1313/ratio/blog/post-2/</loc>
     <lastmod>2021-07-13T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/career/job-post-3/</loc>
+    <loc>//localhost:1313/ratio/career/job-post-3/</loc>
     <lastmod>2021-07-12T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/case-studies/case-3/</loc>
+    <loc>//localhost:1313/ratio/case-studies/case-3/</loc>
     <lastmod>2021-07-12T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-3/</loc>
+    <loc>//localhost:1313/ratio/blog/post-3/</loc>
     <lastmod>2021-07-12T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/career/job-post-4/</loc>
+    <loc>//localhost:1313/ratio/career/job-post-4/</loc>
     <lastmod>2021-07-11T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-4/</loc>
+    <loc>//localhost:1313/ratio/blog/post-4/</loc>
     <lastmod>2021-07-11T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/case-studies/case-4/</loc>
+    <loc>//localhost:1313/ratio/case-studies/case-4/</loc>
     <lastmod>2021-07-11T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/career/job-post-5/</loc>
+    <loc>//localhost:1313/ratio/career/job-post-5/</loc>
     <lastmod>2021-07-10T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/case-studies/case-5/</loc>
+    <loc>//localhost:1313/ratio/case-studies/case-5/</loc>
     <lastmod>2021-07-10T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-5/</loc>
+    <loc>//localhost:1313/ratio/blog/post-5/</loc>
     <lastmod>2021-07-10T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-6/</loc>
+    <loc>//localhost:1313/ratio/blog/post-6/</loc>
     <lastmod>2021-07-09T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/career/job-post-6/</loc>
+    <loc>//localhost:1313/ratio/career/job-post-6/</loc>
     <lastmod>2021-07-09T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/case-studies/case-6/</loc>
+    <loc>//localhost:1313/ratio/case-studies/case-6/</loc>
     <lastmod>2021-07-09T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-7/</loc>
+    <loc>//localhost:1313/ratio/blog/post-7/</loc>
     <lastmod>2021-07-08T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/career/job-post-7/</loc>
+    <loc>//localhost:1313/ratio/career/job-post-7/</loc>
     <lastmod>2021-07-08T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/post-8/</loc>
+    <loc>//localhost:1313/ratio/blog/post-8/</loc>
     <lastmod>2021-07-07T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/author/abdullah-al-shifat/</loc>
+    <loc>//localhost:1313/ratio/author/abdullah-al-shifat/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>//localhost:1313/ratio/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/author/</loc>
+    <loc>//localhost:1313/ratio/author/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>//localhost:1313/ratio/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/pricing/</loc>
+    <loc>//localhost:1313/ratio/pricing/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>//localhost:1313/ratio/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/author/derick-barker/</loc>
+    <loc>//localhost:1313/ratio/author/derick-barker/</loc>
   </url><url>
-    <loc>http://localhost:1313/elements/</loc>
+    <loc>//localhost:1313/ratio/elements/</loc>
   </url><url>
-    <loc>http://localhost:1313/how-it-works/</loc>
+    <loc>//localhost:1313/ratio/how-it-works/</loc>
   </url><url>
-    <loc>http://localhost:1313/signin/</loc>
+    <loc>//localhost:1313/ratio/signin/</loc>
   </url><url>
-    <loc>http://localhost:1313/signup/</loc>
+    <loc>//localhost:1313/ratio/signup/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>//localhost:1313/ratio/tags/</loc>
   </url>
 </urlset>

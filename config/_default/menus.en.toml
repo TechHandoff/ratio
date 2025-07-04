@@ -116,16 +116,16 @@ url = "about/"
 weight = 1
 
 [[footer]]
-name = "How It Works"
+name = "Services"
 url = "how-it-works/"
 weight = 2
 
 [[footer]]
-name = "Terms & Conditions"
-url = "terms-and-conditions/"
+name = "Work"
+url = "case-studies/"
 weight = 3
 
 [[footer]]
-name = "Changelog"
-url = "changelog/"
+name = "Contact"
+url = "contact/"
 weight = 4

@@ -68,15 +68,16 @@
         <div class="footer-widget">
           <h4 class="mb-4">{{ T `socials` }}</h4>
 
-          {{ with site.Params.contact_info.email }}
-            <ul class="footer-links list-unstyled mb-4">
-              {{ range first 1 . }}
-                {{ if . }}
-                  <li><a href="mailto:{{ . }}">{{ . }}</a></li>
-                {{ end }}
-              {{ end }}
-            </ul>
-          {{ end }}
+          <!-- {{ with site.Params.contact_info.email }} -->
+          <!--   <ul class="footer-links list-unstyled mb-4"> -->
+          <!--     {{ range first 1 . }} -->
+          <!--       {{ if . }} -->
+          <!--         <li><a href="mailto:{{ . }}">{{ . }}</a></li> -->
+          <!--       {{ end }} -->
+          <!--     {{ end }} -->
+          <!--   </ul> -->
+          <!-- {{ end }} -->
+          <!---->
 
           <ul class="social-links list-inline">
             {{ range site.Data.social.main }}
@@ -114,6 +115,15 @@
               {{ range first 1 .phone }}
                 {{ if . }}
                   <li><a href="tel:{{ . }}">{{ . }}</a></li>
+                {{ end }}
+              {{ end }}
+            </ul>
+          {{ end }}
+          {{ with site.Params.contact_info.email }}
+            <ul class="footer-links list-unstyled mb-4">
+              {{ range first 1 . }}
+                {{ if . }}
+                  <li><a href="mailto:{{ . }}">{{ . }}</a></li>
                 {{ end }}
               {{ end }}
             </ul>
