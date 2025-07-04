@@ -16,4 +16,4 @@ We partnered with Clearwater to develop a bold, future-ready brand strategy — 
 
 The impact was immediate. With a clear, differentiated market position, backed by a powerful digital strategy, Clearwater broke into the healthcare cybersecurity space and quickly solidified its leadership — setting the stage for sustained growth.
 
-{{< image c="img-fluid" title="We are especially interested in finding developers with experience" src="https://goratio.com/wp-content/uploads/2025/02/clw-cs-4.jpg" alt="Case Challenge">}}
+{{< image c="img-fluid" title="We are especially interested in finding developers with experience" src="images/case-studies/clw-computer.jpg" alt="Case Challenge">}}
