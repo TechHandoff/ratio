@@ -82,7 +82,7 @@ username = "" # your username
 [site_verification]
 google = "" # Your verification code
 bing = "" # Your verification code
-baidu = "" # Your verification code
+# baidu = "" # Your verification code
 facebook = "" # Your verification code
 
 # crisp chat - module: https://github.com/gethugothemes/hugo-modules/tree/master/components/crisp-chat
@@ -96,13 +96,13 @@ crisp_website_id = "9aa449e1-9999-422a-938f-8567982eec6d" # replace this code wi
 [cookies]
 enable = true
 expire_days = 2
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
-button = "I Accept"
+content = "We use cookies to improve your experience on our site. By continuing, you agree to their use."
+button = "Got It"
 
 # call-to-action
 [cta]
 enable = true
-title = "Helping teams in the world with focus"
-content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas <br> Werat viverra id et aliquet. vulputate egestas sollicitudin."
-button = "Download The Theme"
+title = "Grow Your Business with Confidence"
+content = "We help finance and health tech companies scale with bold marketing and sharp strategies that deliver results."
+button = "Get Started"
 button_link = "/"
