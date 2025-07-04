@@ -20,10 +20,10 @@
     <loc>//localhost:1313/ratio/case-studies/</loc>
     <lastmod>2021-07-14T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/ratio/career/job-post-1/</loc>
+    <loc>//localhost:1313/ratio/case-studies/clearwater/</loc>
     <lastmod>2021-07-14T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/ratio/case-studies/case-1/</loc>
+    <loc>//localhost:1313/ratio/career/job-post-1/</loc>
     <lastmod>2021-07-14T00:00:00-05:00</lastmod>
   </url><url>
     <loc>//localhost:1313/ratio/blog/post-1/</loc>
@@ -41,9 +41,6 @@
     <loc>//localhost:1313/ratio/career/job-post-3/</loc>
     <lastmod>2021-07-12T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/ratio/case-studies/case-3/</loc>
-    <lastmod>2021-07-12T00:00:00-05:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/ratio/blog/post-3/</loc>
     <lastmod>2021-07-12T00:00:00-05:00</lastmod>
   </url><url>
@@ -53,13 +50,7 @@
     <loc>//localhost:1313/ratio/blog/post-4/</loc>
     <lastmod>2021-07-11T00:00:00-05:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/ratio/case-studies/case-4/</loc>
-    <lastmod>2021-07-11T00:00:00-05:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/ratio/career/job-post-5/</loc>
-    <lastmod>2021-07-10T00:00:00-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/ratio/case-studies/case-5/</loc>
     <lastmod>2021-07-10T00:00:00-05:00</lastmod>
   </url><url>
     <loc>//localhost:1313/ratio/blog/post-5/</loc>
@@ -69,9 +60,6 @@
     <lastmod>2021-07-09T00:00:00-05:00</lastmod>
   </url><url>
     <loc>//localhost:1313/ratio/career/job-post-6/</loc>
-    <lastmod>2021-07-09T00:00:00-05:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/ratio/case-studies/case-6/</loc>
     <lastmod>2021-07-09T00:00:00-05:00</lastmod>
   </url><url>
     <loc>//localhost:1313/ratio/blog/post-7/</loc>

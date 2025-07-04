@@ -16,30 +16,36 @@
               </h1>
 
               <div class="d-block d-sm-flex border-top mt-4 pt-4">
-                <div class="me-5">
-                  <p class="mb-0 text-uppercase text-black-200 fw-600">
-                    {{ T `year` }}
-                  </p>
-                  <p class="text-primary fw-500">
-                    {{ .Params.year | markdownify }}
-                  </p>
-                </div>
-                <div class="me-5">
-                  <p class="mb-0 text-uppercase text-black-200 fw-600">
-                    {{ T `location` }}
-                  </p>
-                  <p class="text-primary fw-500">
-                    {{ .Params.location | markdownify }}
-                  </p>
-                </div>
-                <div>
-                  <p class="mb-0 text-uppercase text-black-200 fw-600">
-                    {{ T `company_size` }}
-                  </p>
-                  <p class="text-primary fw-500">
-                    {{ .Params.company_size | markdownify }}
-                  </p>
-                </div>
+                {{ if .Params.year }}
+                  <div class="me-5">
+                    <p class="mb-0 text-uppercase text-black-200 fw-600">
+                      {{ T `year` }}
+                    </p>
+                    <p class="text-primary fw-500">
+                      {{ .Params.year | markdownify }}
+                    </p>
+                  </div>
+                {{ end }}
+                {{ if .Params.location }}
+                  <div class="me-5">
+                    <p class="mb-0 text-uppercase text-black-200 fw-600">
+                      {{ T `location` }}
+                    </p>
+                    <p class="text-primary fw-500">
+                      {{ .Params.location | markdownify }}
+                    </p>
+                  </div>
+                {{ end }}
+                {{ if .Params.company_size }}
+                  <div>
+                    <p class="mb-0 text-uppercase text-black-200 fw-600">
+                      {{ T `company_size` }}
+                    </p>
+                    <p class="text-primary fw-500">
+                      {{ .Params.company_size | markdownify }}
+                    </p>
+                  </div>
+                {{ end }}
               </div>
             </div>
 
