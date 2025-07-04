@@ -1,12 +1,11 @@
 ---
 title: "Case Studies"
-description: "meta description"
+description: "Real results from finance and health tech companies we’ve helped grow."
 draft: false
 
-# our_values
 case_studies:
   enable: true
-  subtitle: "Case studies"
-  title: "Some Case studies"
-  description: "We were freelance designers and developers, constantly finding <br> ourselves deep in vague feedback. This made every client and team"
+  subtitle: "Our Impact"
+  title: "Real Growth, Real Stories"
+  description: "See how we’ve driven success for finance and health tech companies with sharp marketing and smart strategies."
 ---
